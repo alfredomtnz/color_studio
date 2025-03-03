@@ -1,0 +1,160 @@
+/* Estilos generales */
+.App {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, #f0f0f0, #e0e0e0);
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+/* Sección de selección de colores */
+.color-picker-section {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.color-picker h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.save-color {
+  margin-top: 20px;
+}
+
+.save-color button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.save-color button:hover {
+  background-color: #45a049;
+}
+
+/* Área de mostrar los colores */
+.color-display {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.color-box {
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 25%;
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.color-box:hover {
+  opacity: 0.8;
+}
+
+/* Paletas de colores aleatorias */
+.random-palettes {
+  margin-top: 40px;
+}
+
+.palette-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.palette {
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  width: 80px;
+}
+
+button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #007B9E;
+}
+
+/* Estilo para los colores favoritos */
+.favorite-colors {
+  margin-top: 40px;
+}
+
+.favorite-colors button {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.favorite-colors button:hover {
+  background-color: #007B9E;
+}
+
+.favorites-list {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.favorite-color {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+}
+
+.favorite-color button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.favorite-color button:hover {
+  background-color: #d32f2f;
+}
